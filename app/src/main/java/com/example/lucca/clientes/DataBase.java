@@ -45,6 +45,7 @@ public class DataBase extends SQLiteOpenHelper {
                 CLIENTE.END               +  " TEXT NOT NULL,"   +
                 CLIENTE.BAIRRO            +  " TEXT NOT NULL,"   +
                 CLIENTE.CIDADE            +  " TEXT NOT NULL,"   +
+                CLIENTE.UF               +  " TEXT NOT NULL, "  +
                 CLIENTE.NOMEPAI           +  " TEXT NOT NULL,"   +
                 CLIENTE.NOMEMAE           +  " TEXT NOT NULL,"   +
                 CLIENTE.DATADENASCIMENTO  +  " TEXT NOT NULL,"   +

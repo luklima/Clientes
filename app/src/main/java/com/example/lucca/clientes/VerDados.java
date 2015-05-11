@@ -67,7 +67,7 @@ public class VerDados extends ActionBarActivity {
 
         saidaNome.setText(nome);
         saidaCpf.setText(cpf);
-        saidaRg.setText(rg + "");
+        saidaRg.setText(rg);
         saidaEnd.setText(end);
         saidaBairro.setText(bairro);
         saidaCidade.setText(cidade);
@@ -85,8 +85,8 @@ public class VerDados extends ActionBarActivity {
         values.put(DataBase.CLIENTE.BAIRRO, bairro);
         values.put(DataBase.CLIENTE.CIDADE, cidade);
         values.put(DataBase.CLIENTE.UF, uf);
-        values.put(DataBase.CLIENTE.NOMEPAI, nomePai);
         values.put(DataBase.CLIENTE.NOMEMAE, nomeMae);
+        values.put(DataBase.CLIENTE.NOMEPAI, nomePai);
         values.put(DataBase.CLIENTE.DATADENASCIMENTO, dataNascimento);
         values.put(DataBase.CLIENTE.LOCALDENASCIMENTO, localNascimento);
 
